@@ -14,9 +14,9 @@ Mail: kate.matveeva@gmail.com
 
 #####Skills
 
-- Experience with 3-D modeling (Kompas-3D)
-- Experience in compiling complex technical documentation
-- Exel sprad shit/Mathcad for technical calculations
+- Experience with 3-D modeling and modern CAD software (Kompas-3D).
+- Experience with compiling complex technical documentation in Russian and English; Technical translation.
+- Using Excel spradshits/Mathcad for technical calculations and modeling.
   #####Code samples
 
 ```
