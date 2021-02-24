@@ -25,10 +25,12 @@ Mail: kate.matveeva@gmail.com
 
 #####Work experience
 
-- Design department of power equipment
-  - Projects:
-    _ Search and calculation of violations in the boiler “Bresson” circulation circuit
-    _ Replacing the water economizer of a steam boiler (building a 3D model, calculating the strength, drawing up design and technical documentation, consultations in production)
+- OJSV Belenergoremnaladka;
+  Department: general station equipment group;
+  Position: design engineer.
+  - Typical projects:
+    _ Search and calculation of violations in the boiler “Bresson” circulation circuit.
+    _ Replacing the water economizer and other equipment of a steam boiler (building 3D model, calculating the strength, drawing up design and technical documentation, consultations in production).
 
 #####Education
 
