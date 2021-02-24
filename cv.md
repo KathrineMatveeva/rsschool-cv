@@ -6,11 +6,11 @@ Tel.number: **+375445633821** (viber; whatsApp; telegram)
 Mail: kate.matveeva@gmail.com
 #####Summary
 
-- Ability to independently solve non-trivial tasks
-- Striving for training and professional development
-- Excellent analytical/communication skills and good team player
-- Experience with technical documentation in English
-- Proficient in interaction with the business users and customers
+- Good problem-solving skills, and ability handle non-trivial tasks without supervision.
+- Striving for training and professional development.
+- Excellent analytical/communication skills and good team player.
+- Rich experience with creating and editing complex technical/project documentation.
+- Proficient in interaction with the stakeholders and customers.
 
 #####Skills
 
