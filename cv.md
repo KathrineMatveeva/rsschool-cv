@@ -34,8 +34,8 @@ Mail: kate.matveeva@gmail.com
 
 #####Education
 
-- St.Petersburg Polytechnic University (SPbPU) / power engineering
-- The State Institute of professional development and personel retraining at gas-supply field «Gas-Institute” / specialist in design, field supervision and commissioning of gas distribution system facilities
+- St.Petersburg Polytechnic University (SPbPU) / power engineering.
+- The State Institute of professional development and personal retraining at gas-supply field «Gas-Institute” / specialist in design, field supervision and commissioning of gas distribution system facilities.
 
 #####Estimated English level
 
