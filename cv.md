@@ -1,11 +1,9 @@
-https://your-github-account.github.io/rsschool-cv/cv
-
 ### Katiaryna Matsveyeva
 
 ##### Contacts
 
-Tel.number: **+375445633821** (viber; whatsApp; telegram)
-Mail: kate.matveeva@gmail.com
+- Tel.number: **+375445633821** (viber; whatsApp; telegram)
+- Mail: kate.matveeva@gmail.com
 
 ##### Summary
 
@@ -29,12 +27,12 @@ Mail: kate.matveeva@gmail.com
 
 ##### Work experience
 
-- OJSV Belenergoremnaladka;
-  Department: general station equipment group;
-  Position: design engineer.
-  - Typical projects:
-    _ Search and calculation of violations in the boiler “Bresson” circulation circuit.
-    _ Replacing the water economizer and other equipment of a steam boiler (building 3D model, calculating the strength, drawing up design and technical documentation, consultations in production).
+- _OJSV "Belenergoremnaladka"_;  
+   _Department:_ general station equipment group;  
+   _Position:_ design engineer.  
+  **Typical projects:**
+  - Search and calculation of violations in the boiler “Bresson” circulation circuit.
+  - Replacing the water economizer and other equipment of a steam boiler (building 3D model, calculating the strength, drawing up design and technical documentation, consultations in production).
 
 ##### Education
 
