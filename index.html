@@ -30,7 +30,7 @@
 
         /* Typography */
         text-align: center;
-        color: #ffae00;
+        color: #ff9410;
 
         /* Visual */
         border: #83a9af 2px solid;
@@ -43,18 +43,26 @@
         float: left;
         border-radius: 1em;
         box-shadow: #003352 0.5em 0.5em 0.3em;
-        width: 100%;
+        background-color: #003352;
+        width: auto;
       }
-      img {
-        width: fit-content;
+      .photo_img {
+        border-radius: 1em;
+      }
+      address {
+        display: inline-block;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
       }
       h1 {
         padding: 20px; /* Поля */
         text-align: center;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
       }
       h3 {
         background: rgb(192, 209, 208);
         padding: 10px 20px;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 1em;
       }
       a {
         color: white;
@@ -76,6 +84,10 @@
         /* Visual */
         border: #83a9af 2px solid;
       }
+      .work_place {
+        padding: 5px 20px; /* Поля */
+        margin: auto; /* Отступы */
+      }
       footer {
         /* Positioning */
         width: 80%;
@@ -87,32 +99,40 @@
 
         /* Typography */
 
-        font-family: Arial, Helvetica, sans-serif;
-
+        font-family: "Poppins", Verdana, sans-serif;
         /* Visual */
-        background: #073564;
-        border: #073564 2px solid;
-      }
-      .logo {
-        float: left;
-        background: white;
+        background: #83a9af;
+        border: #83a9af 2px solid;
       }
       .rs_link {
         float: left;
-        clear: left;
+        margin: 0 1.5%;
+        width: 30%;
+        text-align: left;
       }
       .author {
         text-align: center;
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
       }
       .git_link {
+        margin-left: 20px;
+        float: right;
+        margin: 0 1.5%;
+        width: 30%;
         text-align: center;
+        
+      }
+      .git_link a+a {
+        margin-left: 20px;
       }
     </style>
   </head>
   <body>
     <header class="header">
       <div class="photo_header">
-        <img src="images/photoCV.png" alt="Photo here" />
+        <img class="photo_img" src="images/photoCV.png" alt="Photo here" />
       </div>
       <address>
         <h1>Katiaryna Matsveyeva</h1>
@@ -163,30 +183,29 @@
 
     <section>
       <h3>Code samples</h3>
-
       <pre>
           <code>  
-            header {
-              width: 80%;
-              background: #073564; /* Цвет фона */
-              padding: 20px; /* Поля */
-              margin: auto; /* Отступы */
-              overflow: auto;
-              text-align: center;
-              color: antiquewhite;
-              font-family: Arial, Helvetica, sans-serif; 
-             } </code>
+            function positiveSum(arr) {
+              let sum = 0;
+              for (let i = 0; i < arr.length; i++) {
+               sum += arr[i] > 0 ? arr[i] : 0;
+              }
+              return sum
+            } </code>
      </pre>
     </section>
 
     <section>
       <h3>Work experience</h3>
 
-      <b><em>OJSV "Belenergoremnaladka"</em></b>
-      <p><em>Department:</em> general station equipment group</p>
-      <p><em>Position:</em> design engineer.</p>
-      <p><em>Typical projects:</em></p>
+      <div class="work_place">
+        <p>OJSV "Belenergoremnaladka"</p>
+        <p>Department: general station equipment group</p>
+        <p>Position: design engineer.</p>
+      </div>
+
       <ul>
+        <p>Typical projects:</p>
         <li>
           Search and calculation of violations in the boiler “Bresson”
           circulation circuit
@@ -203,32 +222,29 @@
 
       <ul>
         <li>
-          <em>St.Petersburg Polytechnic University (SPbPU)</em> / power
-          engineering.
+          St.Petersburg Polytechnic University (SPbPU) / power engineering.
         </li>
         <li>
-          <em
-            >The State Institute of professional development and personal
-            retraining at gas-supply field «Gas-Institute”
-          </em>
-          / specialist in design, field supervision and commissioning of gas
-          distribution system facilities
+          The State Institute of professional development and personal
+          retraining at gas-supply field «Gas-Institute” / specialist in design,
+          field supervision and commissioning of gas distribution system
+          facilities
         </li>
       </ul>
     </section>
-    <section>
+    <section class="language">
       <h3>Estimated English level</h3>
 
       <ul>
-        <li><b>B1</b></li>
+        <li>B1</li>
       </ul>
     </section>
     <footer>
       <div class="rs_link">
         <a href="https://rs.school/js/"
           ><img
-            width="80"
-            height="80"
+            width="90"
+            height="90"
             src="images/rs_school_js.svg"
             alt="Rs school logo"
         /></a>
@@ -238,9 +254,13 @@
         <p>2021</p>
       </div>
       <div class="git_link">
-        <a href="https://github.com/KathrineMatveeva">
-          <img src="images/GitHub-Mark-32px.png" alt="Github"
-        /></a>
+        <p>
+          <a href="https://github.com/KathrineMatveeva">
+            <img src="images/GitHub-Mark-32px.png" alt="Github"
+          /></a>
+          <a href="#"> <img  
+            height="30"src="images/yt_logo_mono_light.png" alt="youtube" /></a>
+        </p>
       </div>
     </footer>
   </body>
