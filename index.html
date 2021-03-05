@@ -58,6 +58,9 @@
         text-align: center;
         text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
       }
+      h2 {
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+      }
       h3 {
         background: rgb(192, 209, 208);
         padding: 10px 20px;
@@ -121,10 +124,9 @@
         float: right;
         margin: 0 1.5%;
         width: 30%;
-        text-align: center;
-        
+        text-align: right;
       }
-      .git_link a+a {
+      .git_link a + a {
         margin-left: 20px;
       }
     </style>
@@ -134,15 +136,17 @@
       <div class="photo_header">
         <img class="photo_img" src="images/photoCV.png" alt="Photo here" />
       </div>
-      <address>
+      <div>
         <h1>Katiaryna Matsveyeva</h1>
-        <h4>Contacts</h4>
-        <p>Tel.number: <a href="tel:+375445633821">+375(44)563-38-21</a></p>
-        <p>
-          Mail:
-          <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a>
-        </p>
-      </address>
+        <h2>Contacts</h2>
+        <address>
+          <p>Tel.number: <a href="tel:+375445633821">+375(44)563-38-21</a></p>
+          <p>
+            Mail:
+            <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a>
+          </p>
+        </address>
+      </div>
     </header>
 
     <section>
@@ -187,8 +191,8 @@
           <code>  
             function positiveSum(arr) {
               let sum = 0;
-              for (let i = 0; i < arr.length; i++) {
-               sum += arr[i] > 0 ? arr[i] : 0;
+              for (let i = 0; i &lt arr.length; i++) {
+               sum += arr[i] &gt; 0 ? arr[i] : 0;
               }
               return sum
             } </code>
@@ -205,7 +209,7 @@
       </div>
 
       <ul>
-        <p>Typical projects:</p>
+        Typical projects:
         <li>
           Search and calculation of violations in the boiler “Bresson”
           circulation circuit
@@ -258,8 +262,9 @@
           <a href="https://github.com/KathrineMatveeva">
             <img src="images/GitHub-Mark-32px.png" alt="Github"
           /></a>
-          <a href="#"> <img  
-            height="30"src="images/yt_logo_mono_light.png" alt="youtube" /></a>
+          <a href="#">
+            <img height="30" src="images/yt_logo_mono_light.png" alt="youtube"
+          /></a>
         </p>
       </div>
     </footer>
