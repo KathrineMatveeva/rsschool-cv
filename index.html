@@ -1,11 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV-Katiaryna Matsveyeva</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
-      header {
+      html {
+        font-size: 10px;
+      }
+      body {
+        font-size: 1.6rem;
+        font-family: "Poppins", Verdana, sans-serif;
+      }
+      .header {
         /* Positioning */
         width: 80%;
         padding: 20px; /* Поля */
@@ -16,26 +30,34 @@
 
         /* Typography */
         text-align: center;
-        color: antiquewhite;
-        font-family: Arial, Helvetica, sans-serif;
+        color: #ffae00;
 
         /* Visual */
-        background: #073564; /* Цвет фона */
-        border: #073564 2px solid;
+        border: #83a9af 2px solid;
+        background-image: url(images/pexels-johannes-plenio-1103970.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .photo_header {
+        float: left;
+        border-radius: 1em;
+        box-shadow: #003352 0.5em 0.5em 0.3em;
+        width: 100%;
       }
       img {
-        float: left;
+        width: fit-content;
       }
       h1 {
         padding: 20px; /* Поля */
         text-align: center;
       }
       h3 {
-        background: gray;
+        background: rgb(192, 209, 208);
         padding: 10px 20px;
       }
       a {
-        color: antiquewhite;
+        color: white;
       }
       section {
         /* Positioning */
@@ -48,11 +70,11 @@
 
         /* Typography */
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+
         line-height: 1.5;
 
         /* Visual */
-        border: gray 2px solid;
+        border: #83a9af 2px solid;
       }
       footer {
         /* Positioning */
@@ -75,25 +97,32 @@
         float: left;
         background: white;
       }
-      div {
+      .rs_link {
         float: left;
         clear: left;
+      }
+      .author {
+        text-align: center;
+      }
+      .git_link {
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <header>
-      <img src="images/photoCV.png" alt="Photo here" />
-      <h1>Katiaryna Matsveyeva</h1>
-      <em>Contacts</em>
-      <p>
-        Tel.number: <a href="tel:+375445633821">+375(44)563-38-21</a> (viber;
-        whatsApp; telegram)
-      </p>
-      <p>
-        Mail:
-        <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a>
-      </p>
+    <header class="header">
+      <div class="photo_header">
+        <img src="images/photoCV.png" alt="Photo here" />
+      </div>
+      <address>
+        <h1>Katiaryna Matsveyeva</h1>
+        <h4>Contacts</h4>
+        <p>Tel.number: <a href="tel:+375445633821">+375(44)563-38-21</a></p>
+        <p>
+          Mail:
+          <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a>
+        </p>
+      </address>
     </header>
 
     <section>
@@ -195,21 +224,24 @@
       </ul>
     </section>
     <footer>
-      <img
-        class="logo"
-        src="https://rs.school/images/rs_school_js.svg"
-        alt="RS school logo"
-        width="80"
-        height="80"
-      />
-      <div><a href="https://rs.school/js/"> RS School</a></div>
-
-      <p align="center">Author: Katiaryna Matsveyeva</p>
-      <p align="center">
-        <a href="https://github.com/KathrineMatveeva"> Github</a>
-      </p>
-
-      <p align="center">2021</p>
+      <div class="rs_link">
+        <a href="https://rs.school/js/"
+          ><img
+            width="80"
+            height="80"
+            src="images/rs_school_js.svg"
+            alt="Rs school logo"
+        /></a>
+      </div>
+      <div class="author">
+        <p>Author: Katiaryna Matsveyeva</p>
+        <p>2021</p>
+      </div>
+      <div class="git_link">
+        <a href="https://github.com/KathrineMatveeva">
+          <img src="images/GitHub-Mark-32px.png" alt="Github"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
