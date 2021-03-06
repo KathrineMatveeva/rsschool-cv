@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-Katiaryna Matsveyeva</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        font-size: 10px;
+      }
+      body {
+        font-size: 1.6rem;
+        font-family: "Poppins", Verdana, sans-serif;
+      }
+      .header {
+        /* Positioning */
+        width: 80%;
+        padding: 20px; /* Поля */
+        margin: auto; /* Отступы */
+
+        /* Box-model */
+        overflow: auto;
+
+        /* Typography */
+        text-align: center;
+        color: #ff9410;
+
+        /* Visual */
+        border: #83a9af 2px solid;
+        background-image: url(images/header-background-resize.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      figure {
+        float: left;
+        border-radius: 1em;
+        box-shadow: #003352 0.5em 0.5em 0.3em;
+        background-color: #003352;
+        width: auto;
+      }
+      .photo_img {
+        border-radius: 1em;
+      }
+      .contacts {
+        display: inline-block;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+        list-style-type: none
+      }
+       ul.header_contacts {
+        list-style-type: none
+      }
+      h1 {
+        padding: 20px; /* Поля */
+        text-align: center;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+      }
+      h3 {
+        background: rgb(192, 209, 208);
+        padding: 10px 20px;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 1em;
+      }
+       a {color: white;
+      }
+      section {
+        /* Positioning */
+        width: 80%;
+        padding: 20px; /* Поля */
+        margin: auto; /* Отступы */
+
+        /* Box-model */
+        overflow: auto;
+
+        /* Typography */
+        text-align: left;
+
+        line-height: 1.5;
+
+        /* Visual */
+        border: #83a9af 2px solid;
+      }
+      .work_place {
+        padding: 5px 20px; /* Поля */
+        margin: auto; /* Отступы */
+      }
+      footer {
+        /* Positioning */
+        width: 80%;
+        padding: 5px 20px; /* Поля */
+        margin: auto; /* Отступы */
+
+        /* Box-model */
+        overflow: auto;
+
+        /* Typography */
+
+        font-family: "Poppins", Verdana, sans-serif;
+        /* Visual */
+        background: #83a9af;
+        border: #83a9af 2px solid;
+      }
+      .rs_link {
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
+        text-align: left;
+      }
+      .author {
+        text-align: center;
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
+      }
+      .git_link {
+        margin-left: 20px;
+        float: right;
+        margin: 0 1.5%;
+        width: 30%;
+        text-align: center;
+      }
+      ul.links_footer{
+        list-style-type: none
+         
+      }
+    
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <figure>
+        <img class="photo_img" src="images/photoCV.png" alt="Photo here" />
+      </figure>
+      <div class="contacts">
+        <h1>Katiaryna Matsveyeva</h1>
+        <h2>Contacts</h2>
+        <ul class="header_contacts">
+          <li>Tel.number:  <a href="tel:+375445633821">+375(44)563-38-21</a></li>
+          <li>Mail:  <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+      <section>
+        <h3>Summary</h3>
+  
+        <ul>
+          <li>
+            Good problem-solving skills, and ability handle non-trivial tasks
+            without supervision
+          </li>
+          <li>Striving for training and professional development</li>
+          <li>Excellent analytical/communication skills and good team player</li>
+          <li>
+            Rich experience with creating and editing complex technical/project
+            documentation
+          </li>
+          <li>Proficient in interaction with the stakeholders and customers</li>
+        </ul>
+      </section>
+  
+      <section>
+        <h3>Skills</h3>
+  
+        <ul>
+          <li>
+            Experience with 3-D modeling and modern CAD software (Kompas-3D)
+          </li>
+  
+          <li>
+            Experience with compiling complex technical documentation in Russian
+            and English; Technical translation
+          </li>
+          <li>
+            Using Excel spradshits/Mathcad for technical calculations and modeling
+          </li>
+        </ul>
+      </section>
+  
+      <section>
+        <h3>Code samples</h3>
+        <pre>
+            <code>  
+              function positiveSum(arr) {
+                let sum = 0;
+                for (let i = 0; i &lt; arr.length; i++) {
+                 sum += arr[i] &gt; 0 ? arr[i] : 0;
+                }
+                return sum
+              } </code>
+       </pre>
+      </section>
+  
+      <section>
+        <h3>Work experience</h3>
+  
+        <div class="work_place">
+          <p>OJSV "Belenergoremnaladka"</p>
+          <p>Department: general station equipment group</p>
+          <p>Position: design engineer.</p>
+        </div>
+        <div>
+          <p>Typical projects:</p>
+          <ul>
+            <li>
+              Search and calculation of violations in the boiler “Bresson”
+              circulation circuit
+            </li>
+            <li>
+              Replacing the water economizer and other equipment of a steam boiler
+              (building 3D model, calculating the strength, drawing up design and
+              technical documentation, consultations in production)
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h3>Education</h3>
+  
+        <ul>
+          <li>
+            St.Petersburg Polytechnic University (SPbPU) / power engineering.
+          </li>
+          <li>
+            The State Institute of professional development and personal
+            retraining at gas-supply field «Gas-Institute” / specialist in design,
+            field supervision and commissioning of gas distribution system
+            facilities
+          </li>
+        </ul>
+      </section>
+      <section class="language">
+        <h3>Estimated English level</h3>
+  
+        <ul>
+          <li>B1</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="rs_link">
+        <a href="https://rs.school/js/"
+          ><img
+            width="90"
+            height="90"
+            src="images/rs_school_js.svg"
+            alt="Rs school logo"
+        /></a>
+      </div>
+      <div class="author">
+        <p>Author: Katiaryna Matsveyeva</p>
+        <p>2021</p>
+      </div>
+      <div class="git_link">
+       <ul class="links_footer">
+         <li><a href="https://github.com/KathrineMatveeva">
+          <img src="images/GitHub-Mark-32px.png" alt="Github"
+        /></a></li>
+         <li><a href=https://youtu.be/Aivb-lfhguM>
+          <img height="20" src="images/yt_logo_mono_light.png" alt="youtube"
+        /></a></li>
+       </ul>        
+      </div>
+    </footer>
+  </body>
+</html>
