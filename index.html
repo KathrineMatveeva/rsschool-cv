@@ -39,7 +39,7 @@
         background-size: cover;
         background-position: center;
       }
-      .photo_header {
+      figure {
         float: left;
         border-radius: 1em;
         box-shadow: #003352 0.5em 0.5em 0.3em;
@@ -49,9 +49,13 @@
       .photo_img {
         border-radius: 1em;
       }
-      address {
+      .contacts {
         display: inline-block;
         text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+        list-style-type: none
+      }
+       ul.header_contacts {
+        list-style-type: none
       }
       h1 {
         padding: 20px; /* Поля */
@@ -67,8 +71,7 @@
         text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
         border-radius: 1em;
       }
-      a {
-        color: white;
+       a {color: white;
       }
       section {
         /* Positioning */
@@ -124,126 +127,129 @@
         float: right;
         margin: 0 1.5%;
         width: 30%;
-        text-align: right;
+        text-align: center;
       }
-      .git_link a + a {
-        margin-left: 20px;
+      ul.links_footer{
+        list-style-type: none
+         
       }
+    
     </style>
   </head>
   <body>
+
     <header class="header">
-      <div class="photo_header">
+      <figure>
         <img class="photo_img" src="images/photoCV.png" alt="Photo here" />
-      </div>
-      <div>
+      </figure>
+      <div class="contacts">
         <h1>Katiaryna Matsveyeva</h1>
         <h2>Contacts</h2>
-        <address>
-          <p>Tel.number: <a href="tel:+375445633821">+375(44)563-38-21</a></p>
-          <p>
-            Mail:
-            <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a>
-          </p>
-        </address>
-      </div>
+        <ul class="header_contacts">
+          <li>Tel.number:  <a href="tel:+375445633821">+375(44)563-38-21</a></li>
+          <li>Mail:  <a href="mailto:kate.matveeva@gmail.com">kate.matveeva@gmail.com</a></li>
+        </ul>
+        </div>
     </header>
 
-    <section>
-      <h3>Summary</h3>
-
-      <ul>
-        <li>
-          Good problem-solving skills, and ability handle non-trivial tasks
-          without supervision
-        </li>
-        <li>Striving for training and professional development</li>
-        <li>Excellent analytical/communication skills and good team player</li>
-        <li>
-          Rich experience with creating and editing complex technical/project
-          documentation
-        </li>
-        <li>Proficient in interaction with the stakeholders and customers</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Skills</h3>
-
-      <ul>
-        <li>
-          Experience with 3-D modeling and modern CAD software (Kompas-3D)
-        </li>
-
-        <li>
-          Experience with compiling complex technical documentation in Russian
-          and English; Technical translation
-        </li>
-        <li>
-          Using Excel spradshits/Mathcad for technical calculations and modeling
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Code samples</h3>
-      <pre>
-          <code>  
-            function positiveSum(arr) {
-              let sum = 0;
-              for (let i = 0; i &lt; arr.length; i++) {
-               sum += arr[i] &gt; 0 ? arr[i] : 0;
-              }
-              return sum
-            } </code>
-     </pre>
-    </section>
-
-    <section>
-      <h3>Work experience</h3>
-
-      <div class="work_place">
-        <p>OJSV "Belenergoremnaladka"</p>
-        <p>Department: general station equipment group</p>
-        <p>Position: design engineer.</p>
-      </div>
-      <div>
-        <p>Typical projects:</p>
+    <main>
+      <section>
+        <h3>Summary</h3>
+  
         <ul>
           <li>
-            Search and calculation of violations in the boiler “Bresson”
-            circulation circuit
+            Good problem-solving skills, and ability handle non-trivial tasks
+            without supervision
+          </li>
+          <li>Striving for training and professional development</li>
+          <li>Excellent analytical/communication skills and good team player</li>
+          <li>
+            Rich experience with creating and editing complex technical/project
+            documentation
+          </li>
+          <li>Proficient in interaction with the stakeholders and customers</li>
+        </ul>
+      </section>
+  
+      <section>
+        <h3>Skills</h3>
+  
+        <ul>
+          <li>
+            Experience with 3-D modeling and modern CAD software (Kompas-3D)
+          </li>
+  
+          <li>
+            Experience with compiling complex technical documentation in Russian
+            and English; Technical translation
           </li>
           <li>
-            Replacing the water economizer and other equipment of a steam boiler
-            (building 3D model, calculating the strength, drawing up design and
-            technical documentation, consultations in production)
+            Using Excel spradshits/Mathcad for technical calculations and modeling
           </li>
         </ul>
-      </div>
-    </section>
-    <section>
-      <h3>Education</h3>
+      </section>
+  
+      <section>
+        <h3>Code samples</h3>
+        <pre>
+            <code>  
+              function positiveSum(arr) {
+                let sum = 0;
+                for (let i = 0; i &lt; arr.length; i++) {
+                 sum += arr[i] &gt; 0 ? arr[i] : 0;
+                }
+                return sum
+              } </code>
+       </pre>
+      </section>
+  
+      <section>
+        <h3>Work experience</h3>
+  
+        <div class="work_place">
+          <p>OJSV "Belenergoremnaladka"</p>
+          <p>Department: general station equipment group</p>
+          <p>Position: design engineer.</p>
+        </div>
+        <div>
+          <p>Typical projects:</p>
+          <ul>
+            <li>
+              Search and calculation of violations in the boiler “Bresson”
+              circulation circuit
+            </li>
+            <li>
+              Replacing the water economizer and other equipment of a steam boiler
+              (building 3D model, calculating the strength, drawing up design and
+              technical documentation, consultations in production)
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h3>Education</h3>
+  
+        <ul>
+          <li>
+            St.Petersburg Polytechnic University (SPbPU) / power engineering.
+          </li>
+          <li>
+            The State Institute of professional development and personal
+            retraining at gas-supply field «Gas-Institute” / specialist in design,
+            field supervision and commissioning of gas distribution system
+            facilities
+          </li>
+        </ul>
+      </section>
+      <section class="language">
+        <h3>Estimated English level</h3>
+  
+        <ul>
+          <li>B1</li>
+        </ul>
+      </section>
+    </main>
 
-      <ul>
-        <li>
-          St.Petersburg Polytechnic University (SPbPU) / power engineering.
-        </li>
-        <li>
-          The State Institute of professional development and personal
-          retraining at gas-supply field «Gas-Institute” / specialist in design,
-          field supervision and commissioning of gas distribution system
-          facilities
-        </li>
-      </ul>
-    </section>
-    <section class="language">
-      <h3>Estimated English level</h3>
-
-      <ul>
-        <li>B1</li>
-      </ul>
-    </section>
     <footer>
       <div class="rs_link">
         <a href="https://rs.school/js/"
@@ -259,14 +265,14 @@
         <p>2021</p>
       </div>
       <div class="git_link">
-        <p>
-          <a href="https://github.com/KathrineMatveeva">
-            <img src="images/GitHub-Mark-32px.png" alt="Github"
-          /></a>
-          <a href="#">
-            <img height="30" src="images/yt_logo_mono_light.png" alt="youtube"
-          /></a>
-        </p>
+       <ul class="links_footer">
+         <li><a href="https://github.com/KathrineMatveeva">
+          <img src="images/GitHub-Mark-32px.png" alt="Github"
+        /></a></li>
+         <li><a href="#">
+          <img height="20" src="images/yt_logo_mono_light.png" alt="youtube"
+        /></a></li>
+       </ul>        
       </div>
     </footer>
   </body>
