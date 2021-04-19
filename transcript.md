@@ -1,10 +1,10 @@
-#Self-introduction
-##Katyaryna Matsveyeva
+# Self-introduction
+## Katyaryna Matsveyeva
 
 Hallow everyone!
 My name is **Kathrine Matveyeva**.
 
-###About me
+### About me
 I am 31 years old, and currently reside in Minsk, Belarus.
 Now I’m RS-school student, studying Front End / JavaScript development.
 
@@ -12,11 +12,11 @@ I like everything related to art, especially contemporary art. I like listening 
 
 Participate as a volunteer in local art projects and helping homeless animals.
 
-###Education and work experience
+### Education and work experience
 I graduated from St-Petersburg Polytechnic University in 2012, majoring power engineering. My core specialization was   power plants, boilers, and reactor engineering.
 
 I have been working for 8 years in governmental Joint Stock Venture called “Bern” (which stands for “Belenorgoremnaladka”); where I was responsible for designing power plants equipment and engineering support of power plants reconstruction.
-###Summary, skills and why Front end
+### Summary, skills and why Front end
 Several months ago, I decided to change my career and try myself in Front-end development.
 Why Front end, you may ask?
 I am a visual person by nature, and I like to see the results of my own work instantly.
@@ -26,7 +26,7 @@ Previously, I had an experience in MathCad programming, 3d modeling, creating gr
 So I decided that Front end would be a good option. 
 I got excellent feedback about RS-school from friends who are working in the industry. So, I decided to give it a try.
 
-###Study project
+### Study project
 By the moment, most challenging of my study projects is OnlineZoo.
 Actually, it is my first project of such complexity. I deeply dive into the process and really enjoy it.
 In the process of creating this project, I learned how to:
