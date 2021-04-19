@@ -4,7 +4,7 @@
 Hallow everyone!
 My name is **Kathrine Matveyeva**.
 
-### About me
+### About me<br>
 I am 31 years old, and currently reside in Minsk, Belarus.
 Now I’m RS-school student, studying Front End / JavaScript development.
 
